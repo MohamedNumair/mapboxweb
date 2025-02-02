@@ -41,7 +41,7 @@ class _Mapbox3DMapScreenState extends State<Mapbox3DMapScreen> {
   final CameraPosition _initialCameraPosition = const CameraPosition(
     target: LatLng(37.7749, -122.4194), // San Francisco coordinates
     zoom: 12,
-    bearing: 0,
+    bearing: 1,
     tilt: 45, // Tilt for 3D perspective
   );
 
